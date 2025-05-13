@@ -1,32 +1,9 @@
 # 絆星あかりAI アシスタント
 
-windows で動作します.
-
-ai voice の音声合成およびassistantseika によってcli でのai voice 制御, 通話のspeech to text にはWhisper を用いています
-
-## セットアップ方法
-1. ai voice, assistantseika のインストール
-assistantseika\SeikaSay2\SeikaSay2.exe にSeikaSay2.exe をおいてください
-2. discord bot の設定
-3. nvidia cuda のインストール
-3. python 環境の立ち上げ requirements.txt のインストール
-`pip install -r requirements.txt`は使わないでください(nvidia のgpu によってバージョンとかかわると思うから)
-
-実行方法
-ai voice の立ちあげ
-assistantseika の立ちあげ
-python のvenv に入って
-python .\discordbot.py
-
-コマンド
-
-
-# 絆星あかりAI アシスタント
-
 紲星あかりの音声で会話してくれる Discord ボイスアシスタントです。  
 音声読み上げ・チャット応答・天気や予定の確認などができます。
 
-> 🔧 **Windows 環境前提**（音声合成が SeikaSay2 に依存）
+> 🔧 **Windows 環境前提**（音声合成が SeikaSay2, ai voice に依存）
 
 ---
 
