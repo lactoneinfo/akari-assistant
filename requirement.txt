@@ -1,0 +1,26 @@
+# Whisperベースのリアルタイム文字起こし用
+faster-whisper
+
+# 音声入力処理
+pyaudio
+numpy
+
+# optional: 音声波形の保存・再生に使う場合
+scipy
+soundfile
+
+# GPU対応のPyTorch（CUDA 12.1用）
+torch==2.2.0+cu121
+torchaudio==2.2.0+cu121
+torchvision==0.17.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+discord
+asyncio
+dotenv
+argparse
+pynacl
+
+langchain langchain-google-genai google-generativeai
+
+google-api-python-client google-auth-httplib2 google-auth-oauthlib

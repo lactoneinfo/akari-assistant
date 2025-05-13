@@ -1,0 +1,16 @@
+.env
+
+akari-whisper-gpu/
+
+*.wav
+__pycache__/
+client_secret_*.json
+token_*.json
+assistantseika/
+places.yaml
+config.py
+
+agent_prompt.txt
+prompt.txt
+output.txt
+master_profile.txt
