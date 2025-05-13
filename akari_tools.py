@@ -8,6 +8,8 @@ from tools.calender_delete import calendar_delete_tool
 from tools.tasks_read import tasks_read_tool
 from tools.tasks_write import tasks_write_tool
 from tools.tasks_delete import tasks_delete_tool
+from tools.browser_agent import browser_agent_tool
+from langchain.tools import Tool
 
 # === 現在時刻取得 ===
 def get_current_datetime(_: str) -> str:
@@ -161,8 +163,10 @@ master_info_tool = Tool(
     "マスターの情報を正確に答えるために使ってください。"
 )
 
+
 tools = [
     search_tool,
+    browser_agent_tool,
     datetime_tool,
     latlon_tool,
     weather_forecast_tool,
