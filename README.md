@@ -29,12 +29,14 @@
 ### 2. Python 環境構築
 
 - CUDA 12.1 に対応したPyTorch 環境のインストール
+
 ```bash
 torch==2.2.0+cu121
 torchaudio==2.2.0+cu121
 torchvision==0.17.0+cu121
 --extra-index-url https://download.pytorch.org/whl/cu121
 ```
+
 で動作確認済み
 
 ```bash
@@ -44,6 +46,7 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
+```
 
 ### 3. 環境変数の準備
 
